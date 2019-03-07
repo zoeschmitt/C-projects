@@ -2,6 +2,9 @@
 
 using namespace std;
 
+
+
+//solves the Hanoi Tower problem https://www.cs.cmu.edu/~cburch/survey/recurse/hanoi.html 
 void moveTower(int disk, char source, char dest, char spare) 
 {
     if(disk == 0) {

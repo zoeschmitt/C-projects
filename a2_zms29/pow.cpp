@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+//recursive pow function
 double pow(double x, int y) 
 {
     if(y == 0)
