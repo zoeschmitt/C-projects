@@ -1,8 +1,4 @@
 // File Name: TimeStamp.cpp
-//
-// Author: Dmytro Katrychuk, Jill Seaman
-// Date: 10/13/2018
-//
 // Represents a time in seconds and manipulates the time using values
 // in "mm:ss" format.
 

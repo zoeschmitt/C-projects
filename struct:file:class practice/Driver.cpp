@@ -1,8 +1,4 @@
 // File Name: Driver.cpp
-//
-// Author: Dmytro Katrychuk, Jill Seaman
-// Date: 10/13/2018
-//
 // Tests the Player class, which manages songs on a music player device.
 
 #include <iostream>
@@ -50,48 +46,3 @@ int main() {
     // expecting 3 songs, total length of 14:06 and 31.54 Mb of free space left    
     sony.deviceInfo();
 }
-/*
- Song is already present.
- Not enough memory.
- Song info:
- Band: Pink Floyd
- Title: Hey You
- Length: 4:41
- Size: 10.82 Mb
- 
- Device info:
- Name: iPod touch
- Songs: 3/1000
- Total length: 16:17
- Free space left: 0.01 Mb
- 
- Device info:
- Name: iPod touch
- Songs: 2/1000
- Total length: 11:36
- Free space left: 10.83 Mb
- 
- Song was not found!
- All songs sorted by length:
- Band: Nirvana
- Title: Polly
- Length: 2:57
- Size: 6.76 Mb
- 
- Band: Cream
- Title: White Room
- Length: 5:03
- Size: 11.64 Mb
- 
- Band: Metallica
- Title: Turn The Page
- Length: 6:06
- Size: 14.06 Mb
- 
- Device info:
- Name: Sony Walkman
- Songs: 3/1000
- Total length: 14:06
- Free space left: 31.54 Mb
- 
- */

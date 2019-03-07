@@ -1,11 +1,4 @@
 // File Name: Player.cpp
-//
-// Author: Zoe Schmitt
-// Date: 10/20/2018
-// Assignment Number: 4
-// CS 2308.003 Fall 2018
-// Instructor: Jill Seaman
-//
 // Manages songs on a music player device.
 
 #include <iomanip>

@@ -1,13 +1,6 @@
 // File Name: ListDriver.cpp
-// 
-// Author: Dmytro Katrychuk, Jill Seaman
-// Date: 10/31/2018
-// Assignment Number: 5
-// CS 2308.003 and 004 Fall 2018
-// Instructor: Jill Seaman
-//
 // A demo driver for StringList.
-//
+
 
 #include <iostream>
 #include <iomanip>
@@ -140,60 +133,3 @@ int main()
     testEqual();
 }
 
-/*
- ------- Test case 1, empty list -------
- Display:
- 
- Index of first "empty": -1
- Index of last "empty": -1
- Try to remove first element: false
- Reversed list:
- 
- Copied list:
- 
- ------- Test case 2, list of size 1 -------
- Display:
- Star Wars
- 
- Index of first "Star Wars": 0
- Index of last "Star Wars": 0
- Try to remove first element: true
- Reversed list:
- Star Wars
- 
- Copied list:
- Star Wars
- 
- ------- Test case 3, list of longer size  -------
- Display:
- Star Wars
- Titanic
- Star Wars
- Back to the Future
- Star Wars
- 
- Index of first "Star Wars": 0
- Index of last "Star Wars": 4
- Try to remove last element: true
- Reversed list:
- Back to the Future
- Star Wars
- Titanic
- Star Wars
- Old is equal to reversed list: false
- Reversed list is equal to old: false
- 
- Copied list:
- Star Wars
- Titanic
- Star Wars
- Back to the Future
- Copied list is equal to old: true
- 
- ------- Test case 4, equal  -------
- list1 is equal to list2: true
- list1 is equal to list2+RLA: false
- list2+RLA is equal to list1: false
- list1+TBC is equal to list2+RLA: false
-
-*/

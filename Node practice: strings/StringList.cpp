@@ -1,11 +1,4 @@
 // File Name: StringList.cpp
-//
-// Author: Zoe Schmitt, Adam Castillio, Eric Figueroa, Julian Sherlock
-// Date: 11/11/2018
-// Assignment Number: 5
-// CS 2308.003 Fall 2018
-// Instructor: Jill Seaman
-//
 // adds and removes strings, displays and searches lists,
 // reverses and copys lists, and checks if 2 lists are equal.
 #include <string>
